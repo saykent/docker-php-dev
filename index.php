@@ -1,2 +1,3 @@
 <?php 
-echo "APACHE2 is working!";
+echo "Php Dev Docker is working";
+echo phpinfo();
