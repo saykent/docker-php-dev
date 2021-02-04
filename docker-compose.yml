@@ -12,7 +12,6 @@ services:
             - '${APP_PORT:-80}:80'
         environment:
             WWWUSER: '${WWWUSER}'
-            XDEBUG_CONFIG: remote_host=192.168.11.31
         volumes:
             - '.:/var/www/html'
         networks:
